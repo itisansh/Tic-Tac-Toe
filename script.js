@@ -1,12 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // getElementsByClassName returns a list (HTMLCollection which is like an array but not an array), NOT a single element.+ u cannot use add eventListner to it
-  // use queryselector for it
-  // Use [0] to access one element, or use document.querySelectorAll() which has .forEach().
   const newGameBtn = document.querySelector(".new-game-btn");
   const resetBtn = document.querySelector(".reset-game-btn");
   const boxes = document.querySelectorAll(".box");
-  // console.log(boxes);
-  //document.getElementsByClassName('box') returns an HTMLCollection, which is an array-like object, but it is not a true JavaScript array and does not have the .forEach() method.
   const score = document.getElementById("score");
   const winner = document.querySelector(".winner");
 
@@ -102,3 +97,4 @@ document.addEventListener("DOMContentLoaded", () => {
     score.textContent = `${player1Score} - ${player2Score}`;
   }
 });
+
