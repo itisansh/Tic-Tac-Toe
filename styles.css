@@ -28,8 +28,8 @@ body {
 #score {
   width: fit-content;
   margin: 0 auto;
-  margin-top: 40px;
-  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 5px;
   font-weight: 800;
   background-color: #ffbf00df;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
@@ -64,11 +64,11 @@ body {
   border: none;
   font-size: larger;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-
+  font-size: 45px;
   cursor: pointer;
   outline: none;
   background-color: #363a48;
-  color: black;
+  color: #e5e7eb;
 }
 
 .box:hover {
@@ -83,7 +83,7 @@ body {
   border-radius: 7px;
   font-size: medium;
   cursor: pointer;
-  color: white;
+  color: #e5e7eb;
   font-weight: 700;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   background-color: #7044d6;
@@ -96,13 +96,11 @@ body {
 }
 .winner {
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 5px 20px;
   border-radius: 7px;
   width: fit-content;
-  color: #FFC107;
+  color: #ffc107;
   transform: scale(1.1);
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
-
-
