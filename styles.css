@@ -96,7 +96,7 @@ body {
 }
 .winner {
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 30px;
   padding: 5px 20px;
   border-radius: 7px;
   width: fit-content;
@@ -104,3 +104,4 @@ body {
   transform: scale(1.1);
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
+
